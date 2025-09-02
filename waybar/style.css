@@ -7,7 +7,7 @@
 }
 
 window#waybar {
-  background: rgba(0, 0, 0, 0.6);
+  background: black;
   color: white;
 }
 
@@ -27,10 +27,10 @@ tooltip label {
 }
 
 #workspaces button {
-  margin: 0;
+  margin: 4;
   padding: 0;
 
-  background: transparent;
+  background: white;
   color: #888888;
 }
 
@@ -84,19 +84,19 @@ tooltip label {
 }
 
 #pulseaudio {
-  color: darkcyan;
+  color: white;
 }
 
 #network {
-  color: coral;
+  color: white;
 }
 
 #temperature {
-  color: rgb(91, 191, 225);
+  color: white;
 }
 
 #backlight {
-  color: rgb(255, 255, 61);
+  color: white;
 }
 
 #clock {
@@ -104,7 +104,7 @@ tooltip label {
 }
 
 #battery {
-  color: rgb(147, 63, 225);
+  color: white;
 }
 
 #battery.charging {
