@@ -66,33 +66,6 @@
             }
         }
     },
-    "temperature": {
-        // "thermal-zone": 2,
-        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-        "interval": 1000,
-        "critical-threshold": 80,
-        // "format-critical": "{temperatureC}°C {icon}",
-        "format": "{temperatureC}°C"
-        //"format-icons": ["", "", ""]
-    },
-    "backlight": {
-        // "device": "acpi_video1",
-        "format": "{icon}",
-        "tooltip-format": "{icon} {percent}",
-        "format-icons": [
-            "󰌶",
-            "󱩎",
-            "󱩏",
-            "󱩐",
-            "󱩑",
-            "󱩒",
-            "󱩓",
-            "󱩔",
-            "󱩕",
-            "󱩖",
-            "󰛨"
-        ]
-    },
     "battery": {
         "states": {
             // "good": 95,
@@ -164,18 +137,11 @@
             "Easy Effects Sink"
         ]
     },
-    "sway/window": {
+    "hyprland/window": {
         "format": "{app_id}",
         "max-length": 50,
         "rewrite": {
             "(?:.*\\.)+(?!.*\\.)([^.]+)": "$1"
         }
     },
-    "custom/weather": {
-        "format": "{}°C",
-        "tooltip": true,
-        "interval": 3600,
-        "exec": "wttrbar --date-format \"%d.%m.%Y\" -l de",
-        "return-type": "json"
-    }
 }

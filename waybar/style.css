@@ -46,8 +46,7 @@ tooltip label {
 #language,
 #backlight,
 #network,
-#tray,
-#custom-weather {
+#tray{
   padding: 0 10px;
 }
 
