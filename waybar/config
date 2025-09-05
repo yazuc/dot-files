@@ -24,7 +24,8 @@
         "network",
         "backlight",
         "battery",
-        "tray"
+	"bluetooth",
+        "tray",
     ],
     "keyboard-state": {
         "numlock": true,
@@ -35,10 +36,10 @@
             "unlocked": ""
         }
     },
-    "sway/mode": {
+    "hyprland/mode": {
         "format": "<span style=\"italic\">{}</span>"
     },
-    "sway/scratchpad": {
+    "hyprland/scratchpad": {
         "format": "{icon} {count}",
         "show-empty": false,
         "format-icons": [
