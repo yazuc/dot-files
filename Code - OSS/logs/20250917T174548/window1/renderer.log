@@ -1,0 +1,5 @@
+2025-09-17 17:45:51.912 [info] Started local extension host with pid 13829.
+2025-09-17 17:45:52.059 [info] Started initializing default profile extensions in extensions installation folder. file:///home/leozin/.vscode-oss/extensions
+2025-09-17 17:45:52.087 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-09-17 17:45:52.498 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/leozin/.vscode-oss/extensions
+2025-09-17 17:45:55.445 [info] [perf] Render performance baseline is 48ms

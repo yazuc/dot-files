@@ -1,0 +1,57 @@
+Mono path[0] = '/home/leozin/.local/share/Steam/steamapps/common/Hollow Knight/hollow_knight_Data/Managed'
+Mono config path = '/home/leozin/.local/share/Steam/steamapps/common/Hollow Knight/hollow_knight_Data/MonoBleedingEdge/etc'
+Preloaded 'libsteam_api.so'
+Display 0 'eDP-1 15"': 1366x768 (primary device).
+Unable to load player prefs
+Desktop is 1366 x 768 @ 60 Hz
+[Vulkan init] extensions: count=12
+[Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_wayland_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_xcb_surface, enabled=0
+[Vulkan init] extensions: name=VK_KHR_xlib_surface, enabled=1
+[Vulkan init] extensions: name=VK_EXT_debug_report, enabled=0
+[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
+[Vulkan init] extensions: name=VK_EXT_headless_surface, enabled=0
+[Vulkan init] extensions: name=VK_KHR_portability_enumeration, enabled=0
+[Vulkan init] extensions: name=VK_LUNARG_direct_driver_loading, enabled=0
+Inconsistent value (1) for DRI_PRIME. Should be < 1 (GPU devices count). Using: 0
+Vulkan detection: 0
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path /home/leozin/.local/share/Steam/steamapps/common/Hollow Knight/hollow_knight_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+[Vulkan init] extensions: count=12
+[Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_wayland_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_xcb_surface, enabled=0
+[Vulkan init] extensions: name=VK_KHR_xlib_surface, enabled=1
+[Vulkan init] extensions: name=VK_EXT_debug_report, enabled=0
+[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
+[Vulkan init] extensions: name=VK_EXT_headless_surface, enabled=0
+[Vulkan init] extensions: name=VK_KHR_portability_enumeration, enabled=0
+[Vulkan init] extensions: name=VK_LUNARG_direct_driver_loading, enabled=0
+[Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
+[Vulkan Loader] ERROR:          vkEnumeratePhysicalDevices: Invalid instance [VUID-vkEnumeratePhysicalDevices-instance-parameter]
+Caught fatal signal - signo:6 code:-6 errno:0 addr:0x3e800003b72
+Obtained 16 stack frames.
+#0  0x007f709823e540 in __sigaction
+#1  0x007f709829894c in pthread_key_delete
+#2  0x007f709823e410 in gsignal
+#3  0x007f709822557a in abort
+#4  0x007f6fd09b3b30 in vkEnumeratePhysicalDevices
+#5  0x007f709911711f in vk::Initialize()
+#6  0x007f70991212b9 in CreateVKGfxDevice()
+#7  0x007f709909593e in CreateClientGfxDevice(GfxDeviceRenderer, GfxCreateDeviceFlags)
+#8  0x007f709956da38 in CreateGfxDevice(GfxDeviceRenderer, GfxCreateDeviceFlags)
+#9  0x007f709956dd91 in InitializeGfxDevice()
+#10 0x007f7099425942 in InitializeEngineGraphics(bool)
+#11 0x007f7099433bca in PlayerInitEngineGraphics(bool)
+#12 0x007f709960d6ad in PlayerMain(int, char**)
+#13 0x007f7098227675 in __libc_init_first
+#14 0x007f7098227729 in __libc_start_main
+#15 0x00000000201029 in _start
